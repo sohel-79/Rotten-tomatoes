@@ -1,0 +1,86 @@
+.home-container{
+    display: flex;
+}
+.all-movies{
+    width: 75%;
+    height: 86vh;
+    border-right: 1px solid red;
+    padding: 20px 40px;
+    font-family: 'Roboto', sans-serif;
+}
+.popular-movies{
+    width: 25%;
+    height: 86vh;
+    padding: 20px 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h4{
+    padding-left: 5px;
+    font-weight: bold;
+    border-left: 5px solid red;
+}
+
+.view-all{
+    color: red;
+    cursor: pointer;
+}
+
+.movie-thumbnail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.movie{
+    margin-top: 10px;
+    margin :5px;
+    width: 150px;
+}
+
+.name{
+    font-weight: bold;
+    height: 50px;
+    margin-top: 5px;
+    cursor: pointer;
+    overflow-wrap: break-word;
+}
+
+img{
+    width: 150px;
+    height: 200px;
+}
+
+.detail{
+    width: 180px;
+}
+
+.rating{
+    margin-top: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.rating-popular{
+    margin-bottom: 10px;
+}
+
+.movie-popular{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

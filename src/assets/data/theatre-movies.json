@@ -1,0 +1,48 @@
+[
+    {
+      "id": 17,
+      "name": "AVATAR: The Way Of Water",
+      "cover": "https://m.media-amazon.com/images/M/MV5BYjhiNjBlODctY2ZiOC00YjVlLWFlNzAtNTVhNzM1YjI1NzMxXkEyXkFqcGdeQXVyMjQxNTE1MDA@._V1_FMjpg_UX1000_.jpg",
+      "rating": 3.45,
+      "reviews": [
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Black Panther: Wakanda Forever ",
+      "cover": "https://m.media-amazon.com/images/M/MV5BNTM4NjIxNmEtYWE5NS00NDczLTkyNWQtYThhNmQyZGQzMjM0XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
+      "rating": 4.53,
+      "reviews": [
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Top Gun: Maverick",
+      "cover": "https://m.media-amazon.com/images/M/MV5BZWYzOGEwNTgtNWU3NS00ZTQ0LWJkODUtMmVhMjIwMjA1ZmQwXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg",
+      "rating": 4.12,
+      "reviews": [
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Uncharted",
+      "cover": "https://m.media-amazon.com/images/M/MV5BMWEwNjhkYzYtNjgzYy00YTY2LThjYWYtYzViMGJkZTI4Y2MyXkEyXkFqcGdeQXVyNTM0OTY1OQ@@._V1_.jpg",
+      "rating": 4.45,
+      "reviews": [
+        {
+          "author": "Albus Dumbledore",
+          "published_on": "2022-10-13 11:27:39",
+          "review": "Awesome movie!",
+          "rating": 4.5
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "The Batman",
+      "cover": "https://m.media-amazon.com/images/M/MV5BMDdmMTBiNTYtMDIzNi00NGVlLWIzMDYtZTk3MTQ3NGQxZGEwXkEyXkFqcGdeQXVyMzMwOTU5MDk@._V1_.jpg",
+      "rating": 4.12,
+      "reviews": [
+      ]
+    }
+  ]

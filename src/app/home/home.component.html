@@ -1,0 +1,55 @@
+<app-header></app-header>
+<div class="home-container">
+    <div class="all-movies">
+        <div class="trending">
+            <div class="top">
+                <h4>Trending</h4>
+                <div class="view-all">View All</div>
+            </div>
+            <div class="movie-thumbnail">
+                <div class="movie" *ngFor="let movie of trendingMovies">
+                    <div class="cover" (click)="goToMovie('trending',movie.id)">
+                        <img [src] ="movie.cover" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="name" (click)="goToMovie('trending',movie.id)">
+                            {{ movie.name }}
+                        </div>
+                        <div class="rating">Rating:- {{ movie.rating }}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="theatre">
+            <div class="top">
+                <h4>Theatre</h4>
+                <div class="view-all">View All</div>
+            </div>
+            <div class="movie-thumbnail">
+                <div class="movie" *ngFor="let movie of theatreMovies">
+                    <div class="cover" (click)="goToMovie('theatre',movie.id)">
+                        <img [src] ="movie.cover" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="name" (click)="goToMovie('theatre',movie.id)">
+                            {{ movie.name }}
+                        </div>
+                        <div class="rating">Rating:- {{ movie.rating }}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popular-movies">
+        <h4>All Time Popular Movies </h4>
+        
+        <div class="movie-popular" *ngFor="let movie of popularMovies">
+                <div class="name-popular" (click)="goToMovie('popular',movie.id)">
+                    <b>{{ movie.name }}</b>
+                </div>
+                <div class="rating-popular">{{ movie.rating }}</div>
+        </div>
+
+    </div>
+</div>

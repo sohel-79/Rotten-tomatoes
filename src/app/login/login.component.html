@@ -1,0 +1,34 @@
+<div class="container login">
+
+    <div class="row">
+        <div class="login-form col">
+            <div class="form-group">
+                <label for="uname">Username:-</label>
+                <input type="text" name="uname" [(ngModel)]="username" class="input-field"/>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:-</label>
+                <input type="password" name="password" [(ngModel)]="password" class="input-field"/>
+            </div>
+            <small>{{ errorMsg }}</small>
+            <br>
+            <button class="btn btn-primary" (click)="login()">Submit</button>
+        </div>
+
+
+
+
+        <div class="desc col">
+            <h1>Rotten Tomatoes</h1>
+            <br>
+            <p>Rotten Tomatoes and the Tomatometer score are the world’s most trusted recommendation resources for quality
+            entertainment. As the leading online aggregator of movie and TV show reviews from critics, we provide fans with
+            a comprehensive guide to what’s Fresh – and what’s Rotten – in theaters and at home. And the Tomatometer is just
+            the beginning. We also serve movie and TV fans with original editorial content on our site and through social
+            channels, produce fun and informative video series, and hold live events for fans across the country, with our
+            ‘Your Opinion Sucks’ live shows. If you’re an entertainment fan looking for a recommendation, or to share an
+            opinion, you’ve come to the right place.
+            </p>
+        </div>
+</div>
+</div>
